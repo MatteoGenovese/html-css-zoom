@@ -1,0 +1,111 @@
+/*---------------------------------------------------------------------------RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    padding: 5% 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+main i{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+nav i{
+    color: #FFFFFF;
+    font-size: 3vh;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*---------------------------------------------------------------------------MAIN*/
+main{
+    background-color: black;
+    height: 90vh;
+    width: 100%;
+    overflow: auto;
+
+}
+.profile{
+    width: 225px;
+    padding: 5px;
+    position: relative;
+}
+img{
+    width: 100%;
+}
+.name{
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+.menu-top-right{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: white;
+    display: flex;
+    line-height: 16px;
+}
+.menu-top-right div{
+    color: white;
+height: 20px;
+width: 20px;
+}
+
+
+
+/*---------------------------------------------------------------------------NAV*/
+nav{
+    background-color: #232323;
+    max-height: 50px;
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-nav, .mid-nav, .right-nav{
+    display: flex;
+}
+.left-nav{
+    justify-content:flex-start;
+}
+.mid-nav{
+    justify-content:center;
+}
+.right-nav{
+    justify-content:flex-end;
+}
+
+.left-nav div, .mid-nav div, .right-nav div{
+    margin: 0 25px;
+
+}
+.right-nav{
+    color: red;
+}
+nav span{
+    display: block;
+    color: white;
+}
